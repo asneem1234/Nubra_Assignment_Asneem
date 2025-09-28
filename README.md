@@ -235,4 +235,8 @@ For complete details about the project, please refer to:
 
 ## 📞 Contact
 
-For any questions or additional information, please contact me at [your-email@example.com]
+For any questions or additional information, please feel free to reach out:
+
+📧 **Email:** atharasneemshaik@gmail.com  
+🌐 **Portfolio:** https://www.asneemshaik.com/  
+💼 **GitHub:** https://github.com/asneem1234
