@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadow Trading Dashboard - Nubra</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="dashboard-styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <div class="logo">
+                <img src="https://via.placeholder.com/50x50?text=N" alt="Nubra Logo">
+            </div>
+            <h1>Nubra</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#support">Support</a></li>
+                <li><a href="#apis">Nubra APIs</a></li>
+                <li><a href="#" class="cta-button">Open Demat <i class="fas fa-arrow-right"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="dashboard-container">
+        <div class="dashboard-header">
+            <h2>Shadow Trading Dashboard</h2>
+            <p class="subtitle">Run algorithms in parallel with your manual trades to build confidence without risk.</p>
+        </div>
+
+        <section class="confidence-section">
+            <div class="confidence-card">
+                <h3>Confidence Level: 87%</h3>
+                <div class="progress-bar large">
+                    <div class="progress" style="width: 87%"></div>
+                </div>
+                <p class="recommendation">"Ready for live algo trading with 50% allocation"</p>
+            </div>
+        </section>
+
+        <section class="trading-comparison">
+            <div class="comparison-grid">
+                <div class="comparison-column">
+                    <div class="column-header">
+                        <i class="fas fa-user"></i>
+                        <h3>YOUR TRADES</h3>
+                    </div>
+                    <div class="metric">
+                        <span class="label">Today:</span>
+                        <span class="value">+₹2,450</span>
+                    </div>
+                    <div class="metric">
+                        <span class="label">This Week:</span>
+                        <span class="value">+₹8K</span>
+                    </div>
+                    <div class="metric">
+                        <span class="label">Win Rate:</span>
+                        <span class="value">65%</span>
+                    </div>
+                    <div class="metric">
+                        <span class="label">Avg Trade:</span>
+                        <span class="value">₹340</span>
+                    </div>
+                </div>
+                
+                <div class="comparison-column">
+                    <div class="column-header">
+                        <i class="fas fa-robot"></i>
+                        <h3>ALGO WOULD DO</h3>
+                    </div>
+                    <div class="metric">
+                        <span class="label">Today:</span>
+                        <span class="value">+₹2,890</span>
+                    </div>
+                    <div class="metric">
+                        <span class="label">This Week:</span>
+                        <span class="value">+₹9K</span>
+                    </div>
+                    <div class="metric">
+                        <span class="label">Win Rate:</span>
+                        <span class="value">72%</span>
+                    </div>
+                    <div class="metric">
+                        <span class="label">Avg Trade:</span>
+                        <span class="value">₹410</span>
+                    </div>
+                </div>
+                
+                <div class="comparison-column highlight">
+                    <div class="column-header">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>DIFFERENCE</h3>
+                    </div>
+                    <div class="metric">
+                        <span class="label">Today:</span>
+                        <span class="value">+₹440 (18%)</span>
+                    </div>
+                    <div class="metric">
+                        <span class="label">This Week:</span>
+                        <span class="value">+₹1,200</span>
+                    </div>
+                    <div class="metric">
+                        <span class="label">Win Rate:</span>
+                        <span class="value">+7%</span>
+                    </div>
+                    <div class="metric">
+                        <span class="label">Avg Trade:</span>
+                        <span class="value">+₹70</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="recent-trades">
+            <h3>Recent Comparisons</h3>
+            <div class="trade-list">
+                <div class="trade-item success">
+                    <div class="trade-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <div class="trade-details">
+                        <p class="trade-title">You: Sold RELIANCE at ₹2,450</p>
+                        <p class="trade-algo">Algo: Would sell at ₹2,465 (+₹150 profit)</p>
+                        <p class="trade-reason">Reason: Better exit timing</p>
+                    </div>
+                </div>
+                
+                <div class="trade-item warning">
+                    <div class="trade-icon">
+                        <i class="fas fa-times-circle"></i>
+                    </div>
+                    <div class="trade-details">
+                        <p class="trade-title">You: Bought INFY at ₹1,520</p>
+                        <p class="trade-algo">Algo: Would wait (saved ₹250 loss)</p>
+                        <p class="trade-reason">Reason: RSI was overbought</p>
+                    </div>
+                </div>
+                
+                <div class="trade-item success">
+                    <div class="trade-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <div class="trade-details">
+                        <p class="trade-title">You: Added HDFC at ₹1,789</p>
+                        <p class="trade-algo">Algo: Would add at ₹1,785 (-₹4 better entry)</p>
+                        <p class="trade-reason">Reason: Waiting for support touch</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="action-buttons">
+            <button id="startLiveAlgo" class="dashboard-button primary">
+                <i class="fas fa-play-circle"></i>
+                Start Live Algo
+            </button>
+            <button id="analyzePatterns" class="dashboard-button secondary">
+                <i class="fas fa-chart-bar"></i>
+                Analyze Patterns
+            </button>
+            <button id="adjustSettings" class="dashboard-button secondary">
+                <i class="fas fa-cog"></i>
+                Adjust Settings
+            </button>
+            <a href="index.html" class="dashboard-button outline">
+                <i class="fas fa-home"></i>
+                Back to Home
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="https://via.placeholder.com/50x50?text=N" alt="Nubra Logo">
+                <h3>Nubra</h3>
+            </div>
+            <div class="footer-links">
+                <div class="link-column">
+                    <h4>Platform</h4>
+                    <a href="#">Demat Account</a>
+                    <a href="#">Mobile App</a>
+                    <a href="#">Features</a>
+                    <a href="#">Pricing</a>
+                </div>
+                <div class="link-column">
+                    <h4>Resources</h4>
+                    <a href="#">Documentation</a>
+                    <a href="#">API Reference</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Community</a>
+                </div>
+                <div class="link-column">
+                    <h4>Company</h4>
+                    <a href="#">About Us</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Press</a>
+                </div>
+                <div class="link-column">
+                    <h4>Legal</h4>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Security</a>
+                    <a href="#">Compliance</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Nubra Financial Technologies Ltd. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Button functionality
+            document.getElementById('startLiveAlgo').addEventListener('click', function() {
+                alert('Starting live algorithmic trading with 50% allocation...');
+                // In a real app, this would activate the live trading feature
+            });
+            
+            document.getElementById('analyzePatterns').addEventListener('click', function() {
+                alert('Analyzing your trading patterns...');
+                // In a real app, this would start pattern analysis
+            });
+            
+            document.getElementById('adjustSettings').addEventListener('click', function() {
+                alert('Opening settings panel...');
+                // In a real app, this would open settings
+            });
+            
+            // Animate the metrics when page loads
+            const metrics = document.querySelectorAll('.metric .value');
+            metrics.forEach((metric, index) => {
+                setTimeout(() => {
+                    metric.classList.add('animated');
+                }, 300 + (index * 100));
+            });
+        });
+    </script>
+</body>
+</html>

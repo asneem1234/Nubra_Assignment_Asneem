@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trading DNA Analyzer - Nubra</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="dashboard-styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <div class="logo">
+                <img src="https://via.placeholder.com/50x50?text=N" alt="Nubra Logo">
+            </div>
+            <h1>Nubra</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#support">Support</a></li>
+                <li><a href="#apis">Nubra APIs</a></li>
+                <li><a href="#" class="cta-button">Open Demat <i class="fas fa-arrow-right"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="dashboard-container">
+        <div class="dashboard-header">
+            <h2>Trading DNA Analyzer</h2>
+            <p class="subtitle">Create personalized algorithms based on your unique trading patterns.</p>
+        </div>
+
+        <section class="dna-dashboard">
+            <div class="dna-card">
+                <h3>Behavioral Patterns Detected</h3>
+                <div class="patterns-grid">
+                    <div class="pattern-item">
+                        <div class="pattern-icon">
+                            <i class="far fa-clock"></i>
+                        </div>
+                        <div class="pattern-details">
+                            <h4>Preferred Trading Time</h4>
+                            <p>10:00 AM - 11:30 AM</p>
+                        </div>
+                        <div class="pattern-chart">
+                            <div class="mini-chart">
+                                <div class="bar" style="height: 30%"></div>
+                                <div class="bar" style="height: 80%"></div>
+                                <div class="bar" style="height: 100%"></div>
+                                <div class="bar" style="height: 70%"></div>
+                                <div class="bar" style="height: 40%"></div>
+                                <div class="bar" style="height: 20%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="pattern-item">
+                        <div class="pattern-icon">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <div class="pattern-details">
+                            <h4>Average Profit Target</h4>
+                            <p>2.3%</p>
+                        </div>
+                        <div class="pattern-chart">
+                            <div class="target-chart">
+                                <div class="target-line" style="left: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="pattern-item">
+                        <div class="pattern-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="pattern-details">
+                            <h4>Typical Stop Loss</h4>
+                            <p>1.8%</p>
+                        </div>
+                        <div class="pattern-chart">
+                            <div class="stop-chart">
+                                <div class="stop-line" style="left: 40%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="pattern-item">
+                        <div class="pattern-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <div class="pattern-details">
+                            <h4>Decision Speed</h4>
+                            <p>Fast (avg 12 seconds)</p>
+                        </div>
+                        <div class="pattern-chart">
+                            <div class="speed-meter">
+                                <div class="speed-needle" style="transform: rotate(65deg)"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="pattern-item">
+                        <div class="pattern-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="pattern-details">
+                            <h4>Trading Style</h4>
+                            <p>Momentum + Breakout</p>
+                        </div>
+                        <div class="pattern-tags">
+                            <span class="tag primary">Momentum</span>
+                            <span class="tag secondary">Breakout</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="dna-results">
+            <h3>Recommended Algorithm Templates</h3>
+            <div class="template-grid">
+                <div class="template-card selected">
+                    <div class="template-header">
+                        <h4>Momentum Breakout Tracker</h4>
+                        <span class="match">98% match</span>
+                    </div>
+                    <p>Optimized for your trading style with 2.3% profit target and 1.8% stop loss.</p>
+                    <div class="template-features">
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>Momentum indicator triggers</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>Morning session focus (10:00-11:30AM)</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>Fast execution matched to your style</span>
+                        </div>
+                    </div>
+                    <button class="template-select active">Selected</button>
+                </div>
+                
+                <div class="template-card">
+                    <div class="template-header">
+                        <h4>Breakout Confirmation</h4>
+                        <span class="match">85% match</span>
+                    </div>
+                    <p>Waits for volume confirmation before entering breakout trades.</p>
+                    <div class="template-features">
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>Higher success rate</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>Reduced false breakouts</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-times"></i>
+                            <span>Slower execution (not your preference)</span>
+                        </div>
+                    </div>
+                    <button class="template-select">Select</button>
+                </div>
+                
+                <div class="template-card">
+                    <div class="template-header">
+                        <h4>Trend Momentum Algo</h4>
+                        <span class="match">72% match</span>
+                    </div>
+                    <p>Combines trend following with momentum bursts for longer positions.</p>
+                    <div class="template-features">
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>Higher profit potential</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-times"></i>
+                            <span>Wider stop loss than preferred</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-times"></i>
+                            <span>All-day trading (not your time preference)</span>
+                        </div>
+                    </div>
+                    <button class="template-select">Select</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="action-buttons">
+            <button id="generateAlgo" class="dashboard-button primary">
+                <i class="fas fa-robot"></i>
+                Generate Personalized Algorithm
+            </button>
+            <button id="testAlgo" class="dashboard-button secondary">
+                <i class="fas fa-vial"></i>
+                Backtest Algorithm
+            </button>
+            <button id="tweakSettings" class="dashboard-button secondary">
+                <i class="fas fa-sliders-h"></i>
+                Tweak Parameters
+            </button>
+            <a href="index.html" class="dashboard-button outline">
+                <i class="fas fa-home"></i>
+                Back to Home
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="https://via.placeholder.com/50x50?text=N" alt="Nubra Logo">
+                <h3>Nubra</h3>
+            </div>
+            <div class="footer-links">
+                <div class="link-column">
+                    <h4>Platform</h4>
+                    <a href="#">Demat Account</a>
+                    <a href="#">Mobile App</a>
+                    <a href="#">Features</a>
+                    <a href="#">Pricing</a>
+                </div>
+                <div class="link-column">
+                    <h4>Resources</h4>
+                    <a href="#">Documentation</a>
+                    <a href="#">API Reference</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Community</a>
+                </div>
+                <div class="link-column">
+                    <h4>Company</h4>
+                    <a href="#">About Us</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Press</a>
+                </div>
+                <div class="link-column">
+                    <h4>Legal</h4>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Security</a>
+                    <a href="#">Compliance</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Nubra Financial Technologies Ltd. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Button functionality
+            document.getElementById('generateAlgo').addEventListener('click', function() {
+                alert('Generating your personalized algorithm based on your trading DNA...');
+                // In a real app, this would trigger algorithm generation
+                
+                // Simulate loading
+                this.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Generating...';
+                
+                // Reset after 2 seconds
+                setTimeout(() => {
+                    this.innerHTML = '<i class="fas fa-robot"></i> Generate Personalized Algorithm';
+                    alert('Your personalized algorithm is ready! You can now deploy it to shadow trading.');
+                }, 2000);
+            });
+            
+            document.getElementById('testAlgo').addEventListener('click', function() {
+                alert('Starting backtest of your algorithm against historical data...');
+                // In a real app, this would start backtesting
+            });
+            
+            document.getElementById('tweakSettings').addEventListener('click', function() {
+                alert('Opening algorithm parameter settings...');
+                // In a real app, this would open settings panel
+            });
+            
+            // Template selection functionality
+            const templateButtons = document.querySelectorAll('.template-select');
+            templateButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    // Remove active class from all buttons
+                    templateButtons.forEach(btn => {
+                        btn.classList.remove('active');
+                        btn.textContent = 'Select';
+                    });
+                    
+                    // Add active class to clicked button
+                    this.classList.add('active');
+                    this.textContent = 'Selected';
+                    
+                    // Get parent card and add selected class
+                    const allCards = document.querySelectorAll('.template-card');
+                    allCards.forEach(card => card.classList.remove('selected'));
+                    
+                    this.closest('.template-card').classList.add('selected');
+                });
+            });
+        });
+    </script>
+</body>
+</html>

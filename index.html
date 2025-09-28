@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nubra - Algo Transition Suite</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <div class="logo">
+                <img src="https://via.placeholder.com/50x50?text=N" alt="Nubra Logo">
+            </div>
+            <h1>Nubra</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#support">Support</a></li>
+                <li><a href="#apis">Nubra APIs</a></li>
+                <li><a href="#" class="cta-button">Open Demat <i class="fas fa-arrow-right"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h2>PRO Grade <span>power</span> <span>addons</span></h2>
+                <h3>for the <span class="highlight">Strategists</span></h3>
+                <div class="feature-badge">
+                    <i class="fas fa-bookmark"></i>
+                    <p>Dig deeper & see what's under the hood</p>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="dashboard-preview">
+                    <img src="https://via.placeholder.com/400x300?text=Dashboard+Preview" alt="Dashboard Preview">
+                </div>
+                <div class="qr-container">
+                    <h4>Scan to Download</h4>
+                    <h5>Nubra App</h5>
+                    <div class="qr-code">
+                        <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://nubra.io/download" alt="QR Code">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <h2>Algo Transition Suite</h2>
+        <p class="subtitle">Transforming Manual Traders into Algorithmic Traders</p>
+        
+        <div class="feature-cards">
+            <div class="feature-card">
+                <div class="card-header">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Shadow Trading Dashboard</h3>
+                </div>
+                <p>Run algorithms in parallel with your manual trades to build confidence without risk.</p>
+                <div class="card-preview">
+                    <div class="confidence-meter">
+                        <p>Confidence Level: 87%</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 87%"></div>
+                        </div>
+                        <p class="recommendation">"Ready for live algo trading with 50% allocation"</p>
+                    </div>
+                    <div class="comparison">
+                        <div class="comparison-item">
+                            <h4>YOUR TRADES</h4>
+                            <p>Today: +₹2,450</p>
+                            <p>This Week: +₹8K</p>
+                            <p>Win Rate: 65%</p>
+                            <p>Avg Trade: ₹340</p>
+                        </div>
+                        <div class="comparison-item">
+                            <h4>ALGO WOULD DO</h4>
+                            <p>Today: +₹2,890</p>
+                            <p>This Week: +₹9K</p>
+                            <p>Win Rate: 72%</p>
+                            <p>Avg Trade: ₹410</p>
+                        </div>
+                        <div class="comparison-item highlight">
+                            <h4>DIFFERENCE</h4>
+                            <p>+₹440 (18%)</p>
+                            <p>+₹1,200</p>
+                            <p>+7%</p>
+                            <p>+₹70</p>
+                        </div>
+                    </div>
+                    <a href="shadow-trading.html" class="feature-button">Start Shadow Trading</a>
+                </div>
+            </div>
+            
+            <div class="feature-card">
+                <div class="card-header">
+                    <i class="fas fa-dna"></i>
+                    <h3>Trading DNA Analyzer</h3>
+                </div>
+                <p>Create personalized algorithms based on your unique trading patterns.</p>
+                <div class="card-preview">
+                    <div class="dna-analysis">
+                        <h4>Behavioral Patterns Detected</h4>
+                        <div class="pattern">
+                            <i class="far fa-clock"></i>
+                            <p>Preferred Trading Time: 10:00 AM - 11:30 AM</p>
+                        </div>
+                        <div class="pattern">
+                            <i class="fas fa-chart-bar"></i>
+                            <p>Average Profit Target: 2.3%</p>
+                        </div>
+                        <div class="pattern">
+                            <i class="fas fa-shield-alt"></i>
+                            <p>Typical Stop Loss: 1.8%</p>
+                        </div>
+                        <div class="pattern">
+                            <i class="fas fa-bolt"></i>
+                            <p>Decision Speed: Fast (avg 12 seconds)</p>
+                        </div>
+                        <div class="pattern">
+                            <i class="fas fa-chart-line"></i>
+                            <p>Trading Style: Momentum + Breakout</p>
+                        </div>
+                    </div>
+                    <a href="trading-dna.html" class="feature-button">Generate Personalized Algorithm</a>
+                </div>
+            </div>
+            
+            <div class="feature-card">
+                <div class="card-header">
+                    <i class="fas fa-exchange-alt"></i>
+                    <h3>Enhanced Options Chain</h3>
+                </div>
+                <p>Simplified options view with color-coded ITM/OTM/ATM for better decisions.</p>
+                <div class="card-preview options-chain">
+                    <div class="options-header">
+                        <p>NIFTY 19,800 CE | 15 Oct 2025 | IV: 18.2% ↑</p>
+                    </div>
+                    <div class="options-grid">
+                        <div class="column">
+                            <h4>CALLS</h4>
+                            <p>LTP &nbsp; OI</p>
+                            <p>145 &nbsp; 2.1L</p>
+                            <p>98 &nbsp; 3.2L</p>
+                            <p>67 &nbsp; 1.9L</p>
+                        </div>
+                        <div class="column strike">
+                            <h4>STRIKE</h4>
+                            <div class="strike-item">
+                                <p>19,700</p>
+                                <div class="strike-bar" data-level="70"></div>
+                            </div>
+                            <div class="strike-item current">
+                                <p>19,800</p>
+                                <div class="strike-bar" data-level="90"></div>
+                            </div>
+                            <div class="strike-item">
+                                <p>19,900</p>
+                                <div class="strike-bar" data-level="40"></div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <h4>PUTS</h4>
+                            <p>LTP &nbsp; OI</p>
+                            <p>89 &nbsp; 1.8L</p>
+                            <p>134 &nbsp; 2.9L</p>
+                            <p>189 &nbsp; 2.1L</p>
+                        </div>
+                    </div>
+                    <div class="options-filters">
+                        <a href="options-chain.html" class="filter-btn">Quick Filters</a>
+                        <a href="options-chain.html" class="filter-btn">ATM ±5</a>
+                        <a href="options-chain.html" class="filter-btn">High Volume</a>
+                        <a href="options-chain.html" class="filter-btn">Expiry: 15Oct</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats">
+        <div class="stat-item">
+            <h3>80%</h3>
+            <p>Increase in trading confidence</p>
+        </div>
+        <div class="stat-item">
+            <h3>2.3x</h3>
+            <p>Better risk-reward ratio</p>
+        </div>
+        <div class="stat-item">
+            <h3>17%</h3>
+            <p>Higher win rate with algorithms</p>
+        </div>
+        <div class="stat-item">
+            <h3>5000+</h3>
+            <p>Traders successfully transitioned</p>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h2>Ready to Transition to Algorithmic Trading?</h2>
+        <p>Start your journey with Nubra's Algo Transition Suite today.</p>
+        <button class="cta-button-large">Get Started Now <i class="fas fa-arrow-right"></i></button>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="https://via.placeholder.com/50x50?text=N" alt="Nubra Logo">
+                <h3>Nubra</h3>
+            </div>
+            <div class="footer-links">
+                <div class="link-column">
+                    <h4>Platform</h4>
+                    <a href="#">Demat Account</a>
+                    <a href="#">Mobile App</a>
+                    <a href="#">Features</a>
+                    <a href="#">Pricing</a>
+                </div>
+                <div class="link-column">
+                    <h4>Resources</h4>
+                    <a href="#">Documentation</a>
+                    <a href="#">API Reference</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Community</a>
+                </div>
+                <div class="link-column">
+                    <h4>Company</h4>
+                    <a href="#">About Us</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Press</a>
+                </div>
+                <div class="link-column">
+                    <h4>Legal</h4>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Security</a>
+                    <a href="#">Compliance</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Nubra Financial Technologies Ltd. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
