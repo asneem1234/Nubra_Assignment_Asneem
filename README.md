@@ -1,5 +1,13 @@
 # Nubra Product Intern Assignment
 
+👨‍💻 **Candidate:** Asneem  
+📅 **Submission Date:** September 2025  
+🎯 **Assignment:** Product Intern - UI/UX & Feature Development  
+📝 **Registration No:** 22BCE8807  
+🔍 **Live Wireframe Demo:** https://asneem1234.github.io/Nubra_Assignment_Asneem/
+
+---
+
 This repository contains my completed assignment for the Nubra Product Intern position. The project focuses on designing a feature that helps manual traders transition to algorithmic trading through a user-friendly and confidence-building interface.
 
 ## 📋 Assignment Requirements
