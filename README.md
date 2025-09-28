@@ -1,7 +1,7 @@
 # Nubra Product Intern Assignment
 
-👨‍💻 **Candidate:** Asneem  
-📅 **Submission Date:** September 2025  
+👨‍💻 **Candidate:** Asneem Athar Shaik  
+📅 **Submission Date:** 28th September 2025  
 🎯 **Assignment:** Product Intern - UI/UX & Feature Development  
 📝 **Registration No:** 22BCE8807  
 🔍 **Live Wireframe Demo:** https://asneem1234.github.io/Nubra_Assignment_Asneem/
@@ -219,12 +219,46 @@ The proposed features could be implemented with:
 - **Real-time**: WebSocket for live comparisons
 - **Mobile**: Progressive Web App (PWA) approach
 
-## 📄 Documentation
+## 📄 Comprehensive Documentation
 
-For complete details about the project, please refer to:
+This project includes extensive documentation across multiple files. Each document serves a specific purpose in demonstrating my research, analysis, and solution development process:
 
-- [Nubra Assignment Deliverables](nubra-assignment-deliverables.md): Comprehensive documentation of all deliverables
-- [Product Feature Proposal](Nubra-Product-Feature-Proposal.md): Detailed product specification and analysis
+### 📋 Core Documentation
+- **[README.md](README.md)**: Main project overview with user journey and feature highlights
+- **[RESEARCH.md](RESEARCH.md)**: Detailed research methodology, competitive analysis, and market insights
+- **[Nubra Assignment Deliverables](nubra-assignment-deliverables.md)**: Complete assignment deliverables with UI/UX suggestions
+- **[Product Feature Proposal](Nubra-Product-Feature-Proposal.md)**: Comprehensive product specification and strategic analysis
+
+### 🎨 Implementation Files
+- **[index.html](index.html)**: Main landing page showcasing the Algo Transition Suite
+- **[shadow-trading.html](shadow-trading.html)**: Interactive Shadow Trading Dashboard prototype
+- **[trading-dna.html](trading-dna.html)**: Trading DNA Analyzer interface demonstration
+- **[options-chain.html](options-chain.html)**: Enhanced Options Chain UI/UX improvements
+- **[styles.css](styles.css)**: Main stylesheet for responsive design
+- **[dashboard-styles.css](dashboard-styles.css)**: Specialized styles for dashboard interfaces
+- **[script.js](script.js)**: Interactive functionality and animations
+
+### 📊 Documentation Structure
+```
+📁 Project Documentation
+├── 📄 README.md                    # Project overview & user journey
+├── 📄 RESEARCH.md                  # Research methodology & findings
+├── 📄 nubra-assignment-deliverables.md  # Complete assignment solutions
+├── 📄 Nubra-Product-Feature-Proposal.md # Strategic product proposal
+├── 🌐 index.html                  # Main demo page
+├── 🌐 shadow-trading.html         # Shadow trading prototype
+├── 🌐 trading-dna.html            # DNA analyzer prototype
+├── 🌐 options-chain.html          # Options chain UI demo
+└── 🎨 CSS/JS Files                # Styling and interactions
+```
+
+### 📖 Reading Guide
+For evaluators, I recommend following this sequence:
+1. **Start with [README.md](README.md)** - Get the project overview and see Rajesh's journey
+2. **Review [RESEARCH.md](RESEARCH.md)** - Understand the research methodology and competitive gaps
+3. **Explore Live Demo** - Visit https://asneem1234.github.io/Nubra_Assignment_Asneem/
+4. **Deep Dive into [Product Feature Proposal](Nubra-Product-Feature-Proposal.md)** - See the complete strategic analysis
+5. **Check [Assignment Deliverables](nubra-assignment-deliverables.md)** - Review all specific requirements completion
 
 ## 🧪 Testing Instructions
 
