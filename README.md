@@ -14,6 +14,20 @@ This repository contains my completed assignment for the Nubra Product Intern po
 
 My proposal is the **Algo Transition Suite** - a comprehensive system designed to guide manual traders into algorithmic trading through confidence-building interfaces and personalized experiences.
 
+### The Trader's Journey: Meet Rajesh
+
+> Rajesh is a 35-year-old IT professional who has been trading manually for the past 5 years. While he's had moderate success, he often misses opportunities due to his day job and struggles with emotional decision-making during market volatility. He's interested in algorithmic trading but feels overwhelmed by the technical complexity and fears losing control of his trading strategy.
+> 
+> **The Problem:** One evening, after missing a perfect exit point on a profitable Reliance position because of a work meeting, Rajesh decides to explore algorithmic trading. But when he opens popular platforms, he's immediately confronted with complex jargon, coding requirements, and no clear path forward. "I'm not a programmer," he thinks, closing the tab in frustration.
+> 
+> **The Solution:** The next day, Rajesh discovers Nubra's Algo Transition Suite. He starts with the Shadow Trading dashboard, which runs alongside his normal trading without any risk. For his first week, he continues trading manually while the algorithm makes parallel recommendations. He's surprised to see that the algorithm would have improved his returns by 12% that week, primarily by suggesting better entry and exit timings.
+> 
+> After three weeks, the Trading DNA Analyzer has identified Rajesh's pattern: he prefers momentum trades in the first hour of the market, has a consistent profit target of around 2.2%, but often exits too early on winners. The platform creates a personalized algorithm matching his risk profile but optimizing his exits.
+> 
+> With an 87% confidence score, Rajesh starts allocating 25% of his capital to the algorithm while maintaining manual control of the rest. Six months later, he's running 80% of his portfolio algorithmically, with improved returns and significantly reduced time spent actively monitoring the market.
+>
+> "I never thought I could use algorithms because I'm not a coder," Rajesh explains. "But this approach let me transition at my own pace, using strategies that match my trading style. The best part is I understand exactly what the algorithms are doing and why."
+
 ### Core Components
 
 1. **Shadow Trading Dashboard**
