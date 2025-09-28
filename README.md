@@ -1,5 +1,15 @@
 # Nubra Algo Transition Suite
 
+## 🌟 Non-Trader Friendly User Story
+
+> **What is Nubra?** Nubra is an existing financial trading platform where users can buy and sell stocks, options, and other financial instruments.
+
+> **What are we adding?** The Algo Transition Suite is a new feature being added to the Nubra platform that helps regular traders automate their trading process—similar to how a smart thermostat automates temperature control in your home compared to manually adjusting it throughout the day.
+
+> **Why does this matter?** Imagine you're someone who manually adjusts your home thermostat several times a day based on temperature, time, and comfort. It's time-consuming, sometimes you forget, and you might not always make the optimal decision. Now imagine a smart system that learns your preferences, makes adjustments automatically, but lets you see what it's doing and gradually build trust in it. That's what the Algo Transition Suite does for trading—it helps regular traders automate their process while building confidence that the automated system will make decisions they're comfortable with.
+
+## 👨‍💻 User Journey: Transitioning from Manual to Algo Tradingubra Algo Transition Suite
+
 ## �‍💻 User Journey: Transitioning from Manual to Algo Trading
 
 ```
@@ -162,7 +172,7 @@ Most buttons are fully functional and will show appropriate feedback:
 
 ---
 
-&copy; 2025 | Created by Asneem for Nubra Product Intern Assignment
+&copy; 2023 | Created by Asneem for Nubra Product Intern Assignment
 2. **Learning Curve** - Complex interfaces overwhelm beginners  
 3. **Mobile Experience** - Poor mobile algo trading across all platforms
 
