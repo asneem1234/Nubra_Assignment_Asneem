@@ -1,4 +1,31 @@
-# Nub## 👨‍💻 User Journey: Transitioning from Manual to Algo TradingAlgo Transition Suite
+# Nubra Algo Transition Suite
+
+## 📋 Project Overview
+
+This repository contains th> **The Result**: Without writing a single line of code, Rajesh successfully transitions to algorithmic trading, maintaining his personal trading style while gaining efficiency, emotional control, and better performance.d implementation of the **Nubra Algo Transition Suite** - an innovative platform designed to help manual traders seamlessly transition to algorithmic trading through confidence-building interfaces, personalized onboarding, and risk-free experimentation.
+
+### 👨‍💻 **Candidate:** Asneem  
+### 📅 **Submission Date:** September 2025  
+### 🎯 **Assignment:** Product Intern - UI/UX & Feature Development  
+
+### 🔍 **Live Wireframe Demo:** [https://asneem1234.github.io/Nubra_Assignment_Asneem/](https://asneem1234.github.io/Nubra_Assignment_Asneem/)
+
+## 🌟 User Story: The Trading Automation Journey
+
+Imagine a day trader named Priya who spends 8 hours daily analyzing charts, placing trades, and managing positions manually. She:
+- Makes emotional decisions during market volatility
+- Can only handle 5-6 trades per day due to manual monitoring
+- Misses opportunities when away from her screen
+- Feels exhausted from constant market watching
+
+With Nubra's Algo Transition Suite, Priya can:
+1. **Start with Shadow Trading**: Her algorithm runs alongside her manual trades, showing what it would have done differently
+2. **Discover her Trading DNA**: The system identifies her successful patterns and risk tolerance
+3. **Automate with Confidence**: Gradually trust the algorithm as it proves its value and alignment with her style
+
+**Result**: Priya automates 70% of her trading, increases her profit by 32%, and reduces her screen time to 3 hours/day while maintaining her personal trading approach.
+
+## 👨‍💻 User Journey: Transitioning from Manual to Algo Trading👨‍💻 User Journey: Transitioning from Manual to Algo TradingAlgo Transition Suite
 
 ## 🌟 Non-Trader Context
 > **Nubra**: Existing financial trading platform | **New Feature**: Algo Transition Suite | **Purpose**: Smart automation for traders (like smart thermostat vs. manual temperature control) | **Value**: Builds trust in automated systems that match trader preferences
