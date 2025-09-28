@@ -1,6 +1,60 @@
 # Nubra Algo Transition Suite
 
-## 📋 Project Overview
+## �‍💻 User Journey: Transitioning from Manual to Algo Trading
+
+```
+╔══════════════════════╗     ╔══════════════════════╗     ╔══════════════════════╗
+║  TRADITIONAL TRADER  ║     ║  NUBRA TRANSITION    ║     ║  ALGORITHMIC TRADER  ║
+║                      ║     ║  EXPERIENCE          ║     ║                      ║
+║  • Manual decisions  ║     ║                      ║     ║  • Automated trading ║
+║  • Emotional trades  ║ ==> ║  1. Shadow Trading   ║ ==> ║  • Data-driven       ║
+║  • Limited capacity  ║     ║  2. Trading DNA      ║     ║  • Scalable          ║
+║  • Working hours     ║     ║  3. Options Chain    ║     ║  • 24/7 execution    ║
+╚══════════════════════╝     ╚══════════════════════╝     ╚══════════════════════╝
+```
+
+### 🚶‍♂️ The Trader's Journey
+
+> **Meet Rajesh**: A dedicated manual trader who spends 6 hours daily analyzing charts and executing trades. He's heard about algorithmic trading but feels intimidated by the technical complexity.
+
+#### ⚔️ Competitor Experience
+```
+┌─────────────────────────────────────────────────────────────────────┐
+│ COMPETITOR PLATFORMS                                                │
+├─────────────────────────────────────────────────────────────────────┤
+│ 1. Sign up for algo trading → 2. Face complex code editor           │
+│                                                                     │
+│ 3. Attempt to write algorithm → 4. Get frustrated and abandon       │
+│                                                                     │
+│ "I need to learn programming first. Maybe next year..."             │
+└─────────────────────────────────────────────────────────────────────┘
+```
+
+#### 🚀 Nubra Experience
+```
+┌─────────────────────────────────────────────────────────────────────┐
+│ NUBRA ALGO TRANSITION SUITE                                        │
+├─────────────────────────────────────────────────────────────────────┤
+│ DAY 1: Shadow Trading                                              │
+│ ↳ Continue trading manually while algo runs in parallel            │
+│ ↳ "Hmm, the algo would have made +₹440 more than me today..."      │
+│                                                                     │
+│ DAY 7: Trading DNA Analysis                                        │
+│ ↳ "My trading pattern shows I excel at momentum breakouts!"        │
+│ ↳ Algorithm personalized to match Rajesh's unique trading style    │
+│                                                                     │
+│ DAY 14: Enhanced Options Chain                                     │
+│ ↳ Visual indicators make complex options data intuitive            │
+│ ↳ One-click strategy deployment with confidence score: 87%         │
+│                                                                     │
+│ DAY 30: Full Transition                                            │
+│ ↳ "I now trust my algorithm to handle 50% of my portfolio"         │
+└─────────────────────────────────────────────────────────────────────┘
+```
+
+> **The Result**: Without writing a single line of code, Rajesh successfully transitions to algorithmic trading, maintaining his personal trading style while gaining efficiency, emotional control, and better performance.
+
+## �📋 Project Overview
 
 This repository contains the frontend implementation of the **Nubra Algo Transition Suite** - an innovative platform designed to help manual traders seamlessly transition to algorithmic trading through confidence-building interfaces, personalized onboarding, and risk-free experimentation.
 
